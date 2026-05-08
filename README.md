@@ -10,8 +10,3 @@ modify readme file in feature branch
 
 now we are trying to create PR in git hub remote repo
 
-
-
-Happy to learn this
-==================
-
