@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="listeners.ScreenshotListener" />
+    </listeners>
+
+    <!--********************************* Web ******************************************-->
+    <!-- Local Web -->
+    <test name="LocalWeb">
+        <parameter name="platformName" value="web" />
+        <parameter name="browserName" value="chrome" />
+        <parameter name="cloudProvider" value="local" />
+        <classes>
+            <class name="webTestCasess.TC_GoogleSearchDemo_Web" />
+        </classes>
+    </test>
+
+    <!--********************************* Android ******************************************-->
+    <!-- Local Android -->
+<!--    <test name="LocalAndroid">-->
+<!--        <parameter name="platformName" value="android" />-->
+<!--        <parameter name="deviceName" value="Pixel_7" />-->
+<!--        <parameter name="udid" value="dsflsdj577676" />-->
+<!--        <parameter name="appPackage" value="com.example.myapp" />-->
+<!--        <parameter name="appActivity" value="com.example.myapp.MainActivity" />-->
+<!--        <parameter name="appLocation" value="/path/to/myapp.apk" />-->
+<!--        <parameter name="cloudProvider" value="local" />-->
+<!--        <parameter name="requiredAndroidVersion" value="114" />-->
+<!--        <parameter name="currentAndroidVersion" value="144.0.6099.144" />-->
+<!--        <parameter name="systemPort" value="8200" />-->
+        
+<!--        <parameter name="noResetEnabled" value="true" />-->
+<!--        <parameter name="fullResetEnabled" value="false" />-->
+<!--        <parameter name="installApp" value="true" />-->
+<!--        <parameter name="uninstallApp" value="false" />-->
+        
+<!--        <classes>-->
+<!--            <class name="DriverManager_Pack.AndroidLauncher" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!--********************************* iOS ******************************************-->
+    <!-- Local iOS -->
+<!--    <test name="LocaliOS">-->
+<!--        <parameter name="platformName" value="ios" />-->
+<!--        <parameter name="deviceName" value="iPhone 14 Pro" />-->
+<!--        <parameter name="udid" value="dsflsdj577676" />-->
+<!--        <parameter name="appLocation" value="/path/to/myiosapp.ipa" />-->
+<!--        <parameter name="cloudProvider" value="local" />-->
+<!--        <parameter name="requiredIOSVersion" value="15" />-->
+<!--        <parameter name="currentIOSVersion" value="17.2" />-->
+<!--        <parameter name="wdaLocalPort" value="8100" />-->
+<!--        <classes>-->
+<!--            <class name="DriverManager_Pack.IOSLauncher" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

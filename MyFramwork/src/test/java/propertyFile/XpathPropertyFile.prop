@@ -1,0 +1,5 @@
+## Login Page ##
+SearchBox=//*[@id="APjFqb"]
+SearchIcon=//*[@class="hvhmMe"]
+
+## Home Page ##

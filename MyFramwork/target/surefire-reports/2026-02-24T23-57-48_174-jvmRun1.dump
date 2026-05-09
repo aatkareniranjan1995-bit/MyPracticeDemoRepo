@@ -1,0 +1,20 @@
+# Created at 2026-02-24T23:57:48.896
+org.testng.TestNGException: 
+Couldn't find a constructor in class UtilityPack.ScreenshotListener
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:57)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:10)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:60)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.TestNG.addListeners(TestNG.java:1034)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:991)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1082)
+	at org.testng.TestNG.run(TestNG.java:1093)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+
